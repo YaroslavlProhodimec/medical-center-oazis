@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from "react";
 import styles from './styles.module.scss'
 import {motion, useMotionValue, useTransform} from "framer-motion";
 import {TypeAnimation} from "react-type-animation";
@@ -7,12 +7,14 @@ import {colors} from "../config";
 import { PostType } from "../../../entities/post/model/type";
 import { fadeIn } from "../../../shared/utils";
 import { Button } from "../../../shared/ui/button";
+import { Preloader } from "../../../shared/ui/preloader";
 
 type ServiceProps = {
     post: PostType;
 };
 const Service: React.FC<ServiceProps> = ({post}) => {
     document.title = "Harmony Oasis Center Clinic - Медицинский Центр Оазис Гармонии";
+  const [imageLoaded, setImageLoaded] = useState<boolean>(true);
 
     const x = useMotionValue(0);
     const y = useMotionValue(0);
@@ -81,8 +83,22 @@ const Service: React.FC<ServiceProps> = ({post}) => {
                     className={styles.cardImage}
 
                 >
-                  <img width={300}  className={styles.img} src={'https://github.com/YaroslavlProhodimec/medical-center-oazis/raw/main/src/shared/assets/img/scare.png'} draggable='false' alt=""/>
+                  {imageLoaded ? (
+                    <img
+                      width={300}
+                      className={styles.img}
+                      src={'https://github.com/YaroslavlProhodimec/medical-center-oazis/raw/main/src/shared/assets/img/scare.png'}
+                      draggable='false'
+                      alt=""
+                      onLoad={() => setImageLoaded(true)}
+                      onError={() => setImageLoaded(false)}
+                    />
+                  ) : (
+                    <div style={{marginRight:'30px',marginTop:'10px'}}>
+                      <Preloader />
 
+                    </div>
+                  )}
                 </motion.div>
             </motion.div>
         </div>
