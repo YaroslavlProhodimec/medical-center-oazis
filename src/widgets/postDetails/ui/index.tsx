@@ -94,10 +94,7 @@ const Service: React.FC<ServiceProps> = ({post}) => {
                       onError={() => setImageLoaded(false)}
                     />
                   ) : (
-                    <div style={{marginRight:'30px',marginTop:'10px'}}>
                       <Preloader />
-
-                    </div>
                   )}
                 </motion.div>
             </motion.div>
