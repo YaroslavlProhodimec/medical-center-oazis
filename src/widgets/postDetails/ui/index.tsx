@@ -81,7 +81,7 @@ const Service: React.FC<ServiceProps> = ({post}) => {
                     className={styles.cardImage}
 
                 >
-                  <img width={300}  className={styles.img} src={'https://github.com/YaroslavlProhodimec/medical/raw/main/src/shared/assets/img/scare.png'} draggable='false' alt=""/>
+                  <img width={300}  className={styles.img} src={'https://github.com/YaroslavlProhodimec/medical-center-oazis/raw/main/src/shared/assets/img/scare.png'} draggable='false' alt=""/>
 
                 </motion.div>
             </motion.div>
