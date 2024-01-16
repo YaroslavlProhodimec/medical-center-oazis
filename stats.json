@@ -1,0 +1,196 @@
+{
+  "name": "client",
+  "hash": "5e1820fd18f2ab1d7429",
+  "publicPath": "/",
+  "outputPath": "/Users/tonymyrato/Desktop/medical-center-oazis/dist",
+  "assetsByChunkName": {
+    "main": [
+      "main.69e8a17deadd26078ac1.js",
+      "main.18d5e1e91f5c99d2ffee.css"
+    ],
+    "vendors": [
+      "vendors.f710f69f19e9ab499df8.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "vendors.f710f69f19e9ab499df8.js",
+      "size": 395862,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "chunkhash": "f710f69f19e9ab499df8",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "vendors.f710f69f19e9ab499df8.js.LICENSE.txt"
+        }
+      },
+      "chunkNames": [
+        "vendors"
+      ],
+      "chunkIdHints": [
+        "vendor"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        216
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "main.18d5e1e91f5c99d2ffee.css",
+      "size": 226269,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "18d5e1e91f5c99d2ffee"
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "main.69e8a17deadd26078ac1.js",
+      "size": 9472,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "chunkhash": "69e8a17deadd26078ac1",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "favicon.svg",
+      "size": 2664,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/images/favicon.svg"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "481.c7d4ff33f01d1d54d0c9.js",
+      "size": 2001,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "chunkhash": "c7d4ff33f01d1d54d0c9",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        481
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 495,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    }
+  ],
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        216,
+        179
+      ],
+      "assets": [
+        {
+          "name": "vendors.f710f69f19e9ab499df8.js"
+        },
+        {
+          "name": "main.69e8a17deadd26078ac1.js"
+        },
+        {
+          "name": "main.18d5e1e91f5c99d2ffee.css"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": 179,
+      "files": [
+        "main.69e8a17deadd26078ac1.js",
+        "main.18d5e1e91f5c99d2ffee.css"
+      ]
+    },
+    {
+      "id": 481,
+      "files": [
+        "481.c7d4ff33f01d1d54d0c9.js"
+      ]
+    },
+    {
+      "id": 216,
+      "files": [
+        "vendors.f710f69f19e9ab499df8.js"
+      ]
+    }
+  ]
+}
