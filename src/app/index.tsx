@@ -2,7 +2,6 @@
 import React, { FC, ReactElement } from "react";
 
 import "../shared/styles/globals.scss";
-// eslint-disable-next-line import/order
 import { Provider } from "react-redux";
 import "./styles/index.scss";
 import { store } from "./store";
