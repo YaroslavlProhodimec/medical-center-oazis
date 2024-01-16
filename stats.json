@@ -1,11 +1,11 @@
 {
   "name": "client",
-  "hash": "4e1aa4d0f9bc79deed50",
+  "hash": "ab60acc296683634b42a",
   "publicPath": "/",
   "outputPath": "/Users/tonymyrato/Desktop/medical-center-oazis/dist",
   "assetsByChunkName": {
     "main": [
-      "main.286f42337f43215fa29c.js",
+      "main.fd6173efdab389573317.js",
       "main.18d5e1e91f5c99d2ffee.css"
     ],
     "vendors": [
@@ -67,14 +67,14 @@
     },
     {
       "type": "asset",
-      "name": "main.286f42337f43215fa29c.js",
-      "size": 10627,
+      "name": "main.fd6173efdab389573317.js",
+      "size": 10555,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "immutable": true,
-        "chunkhash": "286f42337f43215fa29c",
+        "chunkhash": "fd6173efdab389573317",
         "javascriptModule": false,
         "minimized": true
       },
@@ -157,7 +157,7 @@
           "name": "vendors.f710f69f19e9ab499df8.js"
         },
         {
-          "name": "main.286f42337f43215fa29c.js"
+          "name": "main.fd6173efdab389573317.js"
         },
         {
           "name": "main.18d5e1e91f5c99d2ffee.css"
@@ -176,7 +176,7 @@
     {
       "id": 179,
       "files": [
-        "main.286f42337f43215fa29c.js",
+        "main.fd6173efdab389573317.js",
         "main.18d5e1e91f5c99d2ffee.css"
       ]
     },
