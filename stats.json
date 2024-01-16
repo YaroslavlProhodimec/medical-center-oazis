@@ -1,11 +1,11 @@
 {
   "name": "client",
-  "hash": "5e1820fd18f2ab1d7429",
+  "hash": "4e1aa4d0f9bc79deed50",
   "publicPath": "/",
   "outputPath": "/Users/tonymyrato/Desktop/medical-center-oazis/dist",
   "assetsByChunkName": {
     "main": [
-      "main.69e8a17deadd26078ac1.js",
+      "main.286f42337f43215fa29c.js",
       "main.18d5e1e91f5c99d2ffee.css"
     ],
     "vendors": [
@@ -67,14 +67,14 @@
     },
     {
       "type": "asset",
-      "name": "main.69e8a17deadd26078ac1.js",
-      "size": 9472,
+      "name": "main.286f42337f43215fa29c.js",
+      "size": 10627,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "immutable": true,
-        "chunkhash": "69e8a17deadd26078ac1",
+        "chunkhash": "286f42337f43215fa29c",
         "javascriptModule": false,
         "minimized": true
       },
@@ -87,24 +87,6 @@
       "chunks": [
         179
       ],
-      "auxiliaryChunks": []
-    },
-    {
-      "type": "asset",
-      "name": "favicon.svg",
-      "size": 2664,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "copied": true,
-        "sourceFilename": "src/assets/images/favicon.svg"
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "chunks": [],
       "auxiliaryChunks": []
     },
     {
@@ -132,11 +114,29 @@
     {
       "type": "asset",
       "name": "index.html",
-      "size": 495,
+      "size": 492,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "favicon.png",
+      "size": 474,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/images/favicon.png"
+      },
       "chunkNames": [],
       "chunkIdHints": [],
       "auxiliaryChunkNames": [],
@@ -157,7 +157,7 @@
           "name": "vendors.f710f69f19e9ab499df8.js"
         },
         {
-          "name": "main.69e8a17deadd26078ac1.js"
+          "name": "main.286f42337f43215fa29c.js"
         },
         {
           "name": "main.18d5e1e91f5c99d2ffee.css"
@@ -176,7 +176,7 @@
     {
       "id": 179,
       "files": [
-        "main.69e8a17deadd26078ac1.js",
+        "main.286f42337f43215fa29c.js",
         "main.18d5e1e91f5c99d2ffee.css"
       ]
     },
