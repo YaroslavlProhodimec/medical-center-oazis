@@ -1,0 +1,26 @@
+@import '../../shared/styles/theme/colors.scss';
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+html,
+body,
+main {
+  height: 100%;
+  padding: 0px ;
+  margin: 0;
+  min-width: 320px;
+}
+
+body > #root {
+  height: 100vh;
+}
+
+body {
+  background: $myGradient;
+
+  //background-color: #e1a9a9;
+  color: #eee;
+}
